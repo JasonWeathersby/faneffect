@@ -1,0 +1,103 @@
+
+h2 {
+	margin:0 0 58px;
+	color:rgb(62,62,62);
+	text-transform: uppercase;
+	font:lighter 32px/1.13 'OpenSansLight', sans-serif;
+	}
+h3 {
+	margin:0 0 58px;
+	color:rgb(62,62,62);
+	font:lighter 26px/1.13 'OpenSansLight', sans-serif;	
+}
+div.cardfan { 
+  height: 356px; 
+  width: 700px; 
+  margin: 2rem auto 0;
+  position: relative; 
+}
+div.cardfan img { 
+  position: absolute; 
+  left: 200px; 
+  width: 320px; 
+  height: 480px; 
+  border: 8px solid #ffe; 
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2); 
+  transform-origin: center 400px; 
+  transition: all .6s linear; 
+}
+div.cardfan img:first-child { 
+  transform: rotate(-90deg); 
+  //transform: translate(-200px); 
+}
+div.cardfan img:nth-child(2) { 
+  transform: rotate(-78deg);  
+}
+div.cardfan img:nth-child(3) { 
+  transform: rotate(-66deg);  
+}
+div.cardfan img:nth-child(4) { 
+  transform: rotate(-54deg);  
+}
+div.cardfan img:nth-child(5) { 
+  transform: rotate(-42deg);  
+}
+div.cardfan img:nth-child(6) { 
+  transform: rotate(-30deg);  
+}
+div.cardfan img:nth-child(7) { 
+  transform: rotate(-18deg);  
+}
+div.cardfan img:nth-child(8) { 
+  transform: rotate(-6deg);  
+}
+div.cardfan img:nth-child(9) { 
+  transform: rotate(6deg);  
+}
+div.cardfan img:nth-child(10) { 
+  transform: rotate(18deg);  
+}
+div.cardfan img:nth-child(11) { 
+  transform: rotate(30deg);  
+}
+div.cardfan img:nth-child(12) { 
+  transform: rotate(42deg);  
+}
+div.cardfan img:nth-child(13) { 
+  transform: rotate(54deg);  
+}
+div.cardfan img:nth-child(14) { 
+  transform: rotate(66deg);  
+}
+div.cardfan img:last-child { 
+  transform: rotate(78deg); 
+}
+//div.cardfan:hover img:nth-child(1) { 
+//	  position: absolute; 
+//  	left: 0px; 
+//	transition: top 0.3s ease, left 0.3s ease;
+//}
+
+
+//.front { 
+//  	transform: rotate(0deg);
+//  	//left: -200px; 
+// 	transform: translate(-200px);   
+//	transition: top 0.3s ease, left 0.3s ease;
+//}
+
+//div.cardfan:hover img:nth-child(2) { 
+//	z-index:1;
+//}
+
+//div.cardfan:hover img:last-child { 
+//  transform: rotate(-25deg);  
+//}
+
+.fade {
+position: absolute;
+    opacity: 0.3;
+    z-index:-1;
+    transform: rotate(0deg);
+    transition: top 0.3s ease, left 0.3s ease;   
+}
